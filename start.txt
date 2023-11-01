@@ -1,0 +1,25 @@
+Step.1
+npm init   => create package.json 
+* Thêm -y "npm init -y" là đồng ý tất cả các mục
+
+Step.2
+/**Add các gói package cho project*/
+npm i react react-dom
+npm i --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-typescript @babel/preset-react babel-loader webpack webpack-cli 
+webpack-dev-server typescript ts-loader @types/react style-loader css-loader
+--fix loi sau step.5
+npm i --save-dev @types/react-dom
+npm i --save-dev html-webpack-plugin
+
+Step.3
+Create tsconfig.json
+
+Step.4
+create webpack.config.js
+
+Step.5
+create foler and file src/client/index.tsx
+
+Step.6
+npm i --save-dev npm-run-all => nhóm 2 lệnh "build": "webpack --config webpack.config.js" and "start": "webpack server --open" trong package.json
+

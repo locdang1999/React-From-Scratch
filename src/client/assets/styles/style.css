@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "Romanesco-Regular";
+    src: url("../fonts/Romanesco-Regular.ttf") format("truetype");
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); // hoặc dùng trực tiếp */
+h1 {
+    color: orange;
+    font-family: "Romanesco-Regular";
+}
